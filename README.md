@@ -1,6 +1,4 @@
-# React + TypeScript + Vite + TailwindCSS
-
-## 시작 방법
+# 시작 방법
 
 1. `npm create vite@latest . -- --template react-ts` ".은 현재 폴더"
 2. `npm install`
