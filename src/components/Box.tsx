@@ -1,10 +1,11 @@
 import { FC } from "react";
 
-type BoxProps = {
+interface BoxProps {
+  //또는 type BoxProps = {
   name: string;
   bgColor: string;
   isRounded?: boolean; //?를 붙이면 안넣어도 되는 인자값이 됨
-};
+}
 
 const Box: FC<BoxProps> = ({ name, bgColor, isRounded = false }) => {
   return (
